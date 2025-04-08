@@ -1,0 +1,133 @@
+
+/*Copy code
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 500px;
+    margin: 50px auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+}
+
+button {
+    margin-left: 10px;
+}
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Title */
+.title {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Container for Todo Form and List */
+.todo-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styling */
+.todo-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.todo-input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.add-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.add-btn:hover {
+    background-color: #218838;
+}
+
+/* Todo List Styling */
+.todo-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.task {
+    font-size: 18px;
+    color: #333;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #28a745;
+}
+
+.not-completed {
+    color: #333;
+}
+
+/* Action Buttons */
+.actions a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 10px;
+    transition: color 0.3s ease;
+}
+
+.actions a:hover {
+    color: #0056b3;
+}
+
+/* Button Icons */
+.toggle-btn i {
+    color: #28a745;
+}
+
+.delete-btn i {
+    color: #dc3545;
+}
